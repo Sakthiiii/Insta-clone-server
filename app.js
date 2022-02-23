@@ -6,11 +6,7 @@ const helmet = require("helmet");
 
 const connectDB = require("./config/db.config");
 
-/**
- * -------------- GENERAL SETUP ----------------
- */
 
-// Gives us access to variables set in the .env file via `process.env.VARIABLE_NAME` syntax
 require("dotenv").config();
 
 // Connection to DB
